@@ -1,0 +1,29 @@
+/* for homepage */
+
+p {
+  margin-bottom: 0px;
+}
+
+body {
+  font-size: 28px;
+  margin: 0px;
+  height: 100%;
+}
+html {
+  height: 100%;
+}
+
+.Round {
+  /* AUGHHHHHHHH */
+  border-radius: 114514px;
+}
+
+.kindle {
+  top: 0px;
+  width: 100%;
+  margin-bottom: 0px;
+  border-width: 0px;
+  transition-duration: var(--trans-duration-long);
+  /* apple style ease out */
+  transition-timing-function: cubic-bezier(0.23, 0.89, 0.32, 1);
+}

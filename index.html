@@ -1,0 +1,58 @@
+<!-- Okay so imagine such a situation where you're suddenly woke up -->
+<!-- because you haven't did your cs summative even a lil' bit and you thought  -->
+<!-- the deadline is on Tuesday but it's actually on Monday and -->
+<!-- conveniently you're extremely sleepy and you have a math exam tmr which you also didn't prepare for -->
+<!-- That's how I feel now. Life sucks, But you have to move on. FML -->
+
+<!-- Time elapsed writing this code: ages! -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style/glue_gun.css" />
+  </head>
+  <body>
+    <div class="NavBar">
+      <img src="img/misc/valogo.png" alt="VA Logo" class="VaLogo Round" onclick="sP('mane')" />
+
+      <span class="NavBarBtn LastNavBarBtn" onclick="sP('news')">News</span>
+      <span class="NavBarDiv">|</span>
+      <span class="NavBarBtn" onclick="sP('teacher')">Teachers</span>
+      <span class="NavBarDiv">|</span>
+      <span class="NavBarBtn" onclick="sP('unit')">Unit</span>
+      <span class="NavBarDiv">|</span>
+      <span class="NavBarBtn" onclick="sP('mane')">Home</span>
+    </div>
+
+    <!-- Got it? Think about kindle's screen while flipping between pages. Good metaphor, huh? -->
+    <iframe id="kindle" name="kindle" src="comp/mane.html" class="kindle" onload="resize();" cross-origin>
+    <!-- resize upon onload since webpage takes time to render properly -->
+    </iframe>
+
+    <div class="Footer">
+      <p style="margin-top: 0px">
+        <span class="CitTitle">Citations</span><br>
+        <span class="CitSub">VA Introduction Sources:</span>
+          <p class="CitText"><a href="https://baike.baidu.com/item/视觉艺术/8739310?fr=aladdin">https://baike.baidu.com/item/视觉艺术/8739310?fr=aladdin</a><br>
+          <a href="http://www.weideer.com.cn/soft/39529.html">http://www.weideer.com.cn/soft/39529.html</a><br></p>
+        <span class="CitSub">Teacher's Introduction Sources:</span>
+        <p class="CitText">
+          <a href="https://www.singulart.com/en/artist/virginia-val%C3%A8re-295">https://www.singulart.com/en/artist/virginia-val%C3%A8re-295</a><br>
+          <a href="https://www.wikiart.org/zh/lu-qi-ta-wu-er-ta-duo">https://www.wikiart.org/zh/lu-qi-ta-wu-er-ta-duo</a><br>
+          <a href="https://en.wikipedia.org/wiki/Louis_le_Brocquy">https://en.wikipedia.org/wiki/Louis_le_Brocquy</a><br>
+          <a href="https://www.wikiart.org/zh/louis-le-brocquy">https://www.wikiart.org/zh/louis-le-brocquy</a><br>
+          <a href="https://en.wikipedia.org/wiki/Manoucher_Yektai">https://en.wikipedia.org/wiki/Manoucher_Yektai</a><br>
+          <a href="https://www.wikiart.org/zh/manoucher-yektai">https://www.wikiart.org/zh/manoucher-yektai</a><br>
+        </p>
+        <span class="CitSub">News Resources:</span>
+        <p class="CitText">
+          <a href="https://www.theartnewspaper.com/">https://www.theartnewspaper.com/</a><br>
+          <a href="https://artemperor.tw/news">https://artemperor.tw/news</a><br>
+          <a href="https://news.artnet.com/">https://news.artnet.com/</a><br>
+        </p>
+        </span>
+      </p>
+    </div>
+
+    <script src="script/nav.js"></script>
+  </body>
+</html>

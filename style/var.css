@@ -1,0 +1,17 @@
+/* glb variables. Why? idk */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;800&display=swap");
+
+:root {
+  --primary-color: #ffc107;
+  --dark-primary-color: #ffa000;
+  --light-primary-color: #ffd148;
+  --accent-color: #536dfe;
+
+  --trans-duration: 150ms;
+  --trans-duration-long: 400ms;
+
+  --material-teal: #009688;
+  --material-teal-dark: #00796b;
+  --material-red: #f44336;
+}

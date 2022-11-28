@@ -1,0 +1,5 @@
+/* this file glues other css comp into one file so it's easier to manage and import */
+@import "./var.css";
+@import "./mothership.css";
+@import "./nav_bar.css";
+@import "./footer.css";
