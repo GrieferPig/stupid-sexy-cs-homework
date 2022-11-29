@@ -1,7 +1,22 @@
 @import url("./var.css");
 
+body {
+  margin: 0;
+}
+
+.TitleCont {
+  margin-left: 30px;
+}
+
 .red_title {
-  color: var(--material-red);
+  background-image: linear-gradient(
+    to bottom right,
+    var(--material-cyan),
+    var(--material-cyan-light)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /*需要文字透明*/
   font-weight: 800;
   font-size: 28pt;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -18,18 +33,65 @@
   height: 3px;
   border-color: transparent;
   background-color: var(--dark-primary-color);
-  margin-left: 0px;
+  margin-left: 30px;
   margin-top: -20px;
 }
 
 #img_cont {
-  width: 80%;
+  width: 533px;
+  height: 300px;
   overflow: hidden;
   background-color: black;
+  margin: 0px auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+}
+
+#img {
+  width: 1599px;
+  height: 300px;
+  margin: 0px auto;
+  font-size: 0px;
+  animation: makeItSpin 8s cubic-bezier(0, 0.46, 0.35, 1) infinite;
 }
 
 .img_inst {
-  width: 80%;
+  width: 533px;
   height: 300px;
-  clip: rect();
+  float: left;
+}
+
+.ManePg {
+  font-family: sans-serif;
+  padding: 40px 100px;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 100;
+  text-align: center;
+  background-color: var(--material-cyan-dark);
+  color: white;
+  margin-bottom: 0;
+}
+
+.BigWord {
+  font-size: 48px;
+  /* not boulder the stone */
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.Quote {
+  color: var(--material-quote);
+}
+
+.nospace {
+  text-align: right;
+}
+
+#license {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
 }

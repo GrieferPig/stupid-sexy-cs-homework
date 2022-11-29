@@ -1,20 +1,19 @@
+@import url("var.css");
+
 body {
   font-size: 28px;
-}
-
-ul {
-  list-style-type: none;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #ffaa06;
-  position: absolute;
-  position: sticky;
-  top: 0;
 }
 
-li {
-  float: inherit;
+.title {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  color: white;
+}
+
+.header {
+  background-color: var(--primary-color);
 }
 
 li a {
@@ -24,15 +23,20 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   font-family: serif;
+  width: 200px;
+  height: 200px;
 }
 
 .back:hover {
-  background-color: #ffebc4;
+  background-color: var(--light-primary-color);
 }
 
 .back {
-  height: 67px;
-  position: absolute;
-  left: 20px;
-  top: 8px;
+  height: 64px;
+  margin-top: -70px;
+  float: left;
+}
+
+.news {
+  width: 100%;
 }

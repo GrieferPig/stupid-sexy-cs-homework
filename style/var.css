@@ -14,4 +14,48 @@
   --material-teal: #009688;
   --material-teal-dark: #00796b;
   --material-red: #f44336;
+  --material-cyan-dark: #0097a7;
+  --material-quote: white;
+  --material-cyan: #00bcd4;
+  --material-cyan-light: #b2ebf2;
+}
+
+@keyframes float {
+  0% {
+    opacity: 95%;
+    width: 300px;
+  }
+  50% {
+    opacity: 85%;
+    width: 305px;
+  }
+}
+
+@keyframes floatT {
+  0% {
+    opacity: 95%;
+    width: 500px;
+  }
+  50% {
+    opacity: 85%;
+    width: 505px;
+  }
+}
+
+@keyframes makeItSpin {
+  0%,
+  10% {
+    margin-left: 0px;
+  }
+  33%,
+  43% {
+    margin-left: -533px;
+  }
+  66%,
+  86% {
+    margin-left: -1066px;
+  }
+  100% {
+    margin-left: 0px;
+  }
 }

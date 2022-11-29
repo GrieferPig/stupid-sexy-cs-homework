@@ -1,5 +1,5 @@
 .NavBar {
-  position: sticky;
+  position: fixed;
   background-color: var(--primary-color);
   width: 100%;
   height: 60px;

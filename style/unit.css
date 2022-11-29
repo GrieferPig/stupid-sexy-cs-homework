@@ -1,0 +1,26 @@
+@import url("var.css");
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+.img_unit {
+  width: 100%;
+  height: 500px;
+  transition-duration: var(--trans-duration);
+}
+.img_unit:hover {
+  opacity: 80%;
+  width: 103%;
+  height: 510px;
+  transform: rotateX("45");
+}
+
+.imgTable {
+  width: 100%;
+}
+
+.itemTitle {
+  text-align: center;
+}
